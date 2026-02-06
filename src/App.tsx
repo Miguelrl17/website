@@ -62,7 +62,7 @@ export default function App() {
 
             <nav className="nav hidden lg:block" aria-label="In-page jump links">
               <ul className="mt-16 w-max">
-                {['about', 'experience', 'projects'].map((section) => (
+                {['experience', 'projects'].map((section) => (
                   <li key={section}>
                     <button
                       onClick={() => scrollToSection(section)}
@@ -105,11 +105,11 @@ export default function App() {
             className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
             aria-label="About me"
           >
-            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+            {/* <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
               <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
                 About
               </h2>
-            </div>
+            </div> */}
             <div>
               {/* <p className="mb-4">
 I’m a CS Honors student at UC Irvine ('26) who enjoys building models, working on systems, and combining the two. I also like full-stack development and testing. My goal is to build technology that’s intelligent, robust, and scalable.
