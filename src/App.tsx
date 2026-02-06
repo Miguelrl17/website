@@ -111,9 +111,9 @@ export default function App() {
               </h2>
             </div>
             <div>
-              <p className="mb-4">
+              {/* <p className="mb-4">
 I’m a CS Honors student at UC Irvine ('26) who enjoys building models, working on systems, and combining the two. I also like full-stack development and testing. My goal is to build technology that’s intelligent, robust, and scalable.
-              </p>
+              </p> */}
             </div>
           </section>
 
