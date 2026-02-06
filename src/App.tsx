@@ -45,7 +45,7 @@ export default function App() {
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
           <div>
             <img
-              src="/public/me.png"
+              src="me.png"
               alt="Portrait of Miguel Ruiz Licea"
               className="mb-6 h-20 w-20 rounded-full object-cover ring-2 ring-slate-700"
             />
