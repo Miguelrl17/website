@@ -115,9 +115,9 @@ export default function App() {
                 Systems & ML Engineer
               </h2>
               <p className="mt-4 max-w-xs leading-normal">
-                I’m a CS Honors student at UC Irvine ('26) focused on bridging
-                intelligence and infrastructure by building scalable,
-                high-performance systems.
+                CS and Campuswide Honors graduate from UC Irvine ('26)
+                specializing in scalable, high-performance systems that bridge
+                intelligence and infrastructure."
               </p>
 
               <nav
@@ -166,9 +166,7 @@ export default function App() {
               id="about"
               className="mb-12 scroll-mt-16 md:mb-16 lg:mb-24 lg:scroll-mt-24"
               aria-label="About me"
-            >
-            </section>
-
+            ></section>
 
             {/* Experience Section */}
             <section
@@ -183,6 +181,32 @@ export default function App() {
               </div>
               <div>
                 <ol className="group/list">
+                  <li className="mb-12">
+                    <ExperienceItem
+                      dateRange="Sep 2026 — Present"
+                      role="Software Engineer"
+                      company="Google"
+                      description="Google Cloud Platform (GCP) infrastructure engineer, focused on building, scaling, and maintaining reliable cloud environments and distributed systems"
+                      technologies={["C++", "Go", "Python"]}
+                    />
+                  </li>
+                  <li className="mb-12">
+                    <ExperienceItem
+                      dateRange="Jun 2026 — Sept 2026"
+                      role="Systems & AI Engineer Intern"
+                      company="Boundary RSS"
+                      description="Architected an end-to-end ML platform in Python using Pydantic for schema validation across data ingestion and feature engineering; deployed multi-model serving for XGBoost and time-series foundation models including TimesFM and Chronos with probabilistic uncertainty quantification. Built distributed data pipelines with direct API collectors and automated feature extraction, enforcing point-in-time state reconstruction to prevent look-ahead leakage across 1–365-day forecast horizons. Scaled distributed Monte Carlo simulation pipelines and walk-forward backtesting harnesses while isolating low-latency quantitative forecasting engines from asynchronous LLM workflows to maintain deterministic decision-making."
+                      technologies={[
+                        "Python",
+                        "Pydantic",
+                        "XGBoost",
+                        "TimesFM",
+                        "Chronos",
+                        "Monte Carlo",
+                        "LLMs",
+                      ]}
+                    />
+                  </li>
                   <li className="mb-12">
                     <ExperienceItem
                       dateRange="Feb 2026 — Present"
