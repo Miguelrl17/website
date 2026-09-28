@@ -117,7 +117,7 @@ export default function App() {
               <p className="mt-4 max-w-xs leading-normal">
                 CS and Campuswide Honors graduate from UC Irvine ('26)
                 specializing in scalable, high-performance systems that bridge
-                intelligence and infrastructure."
+                intelligence and infrastructure.
               </p>
 
               <nav
