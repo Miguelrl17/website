@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { ExperienceItem } from "./app/components/ExperienceItem";
 import { ProjectCard } from "./app/components/ProjectCard";
 import { SocialLinks } from "./app/components/SocialLinks";
-
+import headshot from '/public/miguel-ruiz-licea.png';
 export default function App() {
   const [activeSection, setActiveSection] = useState("about");
 
@@ -103,7 +103,7 @@ export default function App() {
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
             <div>
               <img
-                src="me.png"
+                src={headshot}
                 alt="Portrait of Miguel Ruiz Licea"
                 className="mb-6 h-20 w-20 rounded-full object-cover ring-2 ring-slate-700"
               />
